@@ -1,0 +1,8 @@
+.idea/
+.DS_Store
+install.php
+school-management.zip
+OraSchool70/
+deploy.sh
+.env
+vendor

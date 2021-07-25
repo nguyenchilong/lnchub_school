@@ -45,18 +45,18 @@ return [
     */
 
     'connections' => [
-
+    	
         'mysql' => [
             'driver' => 'mysql',
-            'host' => 'localhost',
-            'port' => '3306',
-            'database' => 'database_name',
-            'username' => 'database_username',
-            'password' => 'database_password',
-            'charset' => 'utf8',
-            'collation' => 'utf8_unicode_ci',
+            'host' => env('DB_HOST', 'localhost:3307'),
+            'port' => env('DB_PORT', 3306),
+            'database' => env('DB_NAME', null),
+            'username' => env('DB_USER', 'root'),
+            'password' => env('DB_PASSWORD', null),
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
             'strict' => false,
-            'engine' => null,
+            'engine' => null
         ]
 
     ],

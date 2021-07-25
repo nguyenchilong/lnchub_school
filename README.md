@@ -1,2 +1,2 @@
-# lnchub_school
+# lnchub School
 The web app management school
